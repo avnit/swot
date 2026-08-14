@@ -56,4 +56,19 @@ However, if the upper-level domain is also used by alumni, research staff, and o
 If the university uses several email domains in different upper-level domains (for example, `euroacademia.ee` and `euroacademia.eu`), please submit several files with different paths and the same content (i.e., same name of the university) in your pull request.
 
 #### Some universities have their names duplicated in the first and the second line in the respective .txt file in this repository. Shall I put the university name twice in my .txt file to have the domain added?
-No, it's not needed. However, nothing bad happens if you do it, don't worry. It does not affect our decision on your request. 
+No, it's not needed. However, nothing bad happens if you do it, don't worry. It does not affect our decision on your request.
+
+<!-- ARCH-DIAGRAM:START -->
+
+## Architecture
+
+> Auto-generated architecture diagram. See [`docs/context-map.md`](docs/context-map.md) for the full context map (core application, containers/cloud, and database connections).
+
+```mermaid
+flowchart TD
+  User([User / Client])
+  App["swot"]
+  User --> App
+```
+
+<!-- ARCH-DIAGRAM:END -->
